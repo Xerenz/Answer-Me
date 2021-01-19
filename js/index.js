@@ -19,7 +19,7 @@ $("#emailForm").submit((event) => {
     })
     .then(() => {
         console.log('Data added')
-        window.location.href = '/see.html'
+        window.location.href = '/views/see.html'
     })
     .catch(error => {
         console.log(error)
