@@ -24,7 +24,7 @@ $("#emailForm").submit((event) => {
     .catch(error => {
         console.log(error)
         console.log('Got an error!')
-        window.location.href = '/error.html'
+        window.location.href = '/views/error.html'
     })
 })
 })

@@ -13,6 +13,6 @@ $(document).ready(() => {
         })
     })
     .catch(error => {
-        window.location.href = '/error.html'
+        window.location.href = '/views/error.html'
     })
 })
