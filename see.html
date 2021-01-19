@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Answer Me!</title>
+  </head>
+  <body>
+      <h1>See what others are saying!</h1>
+    <div id="allQuestions"></div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyA4SU2_F_MSQM5s0S5PX0MJSMHbqi_2Wc0",
+        authDomain: "quote-for-the-day-f5865.firebaseapp.com",
+        projectId: "quote-for-the-day-f5865",
+        storageBucket: "quote-for-the-day-f5865.appspot.com",
+        messagingSenderId: "688998531126",
+        appId: "1:688998531126:web:409c6778a1093019465897",
+        measurementId: "G-K5EGZX9Z20"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="js/see.js"></script>
+  </body>
+</html>
