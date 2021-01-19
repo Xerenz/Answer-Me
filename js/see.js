@@ -11,11 +11,13 @@ $(document).ready(() => {
             let data = `
             <div class="mb-3">
             <div class="card">
-                <p class="mt-2 ml-3">
-                    <b>${doc.data().name}</b> says <i>${doc.data().question}</i>
-                </p>
+                <div class="card-body">
+                    <p class="mt-2 ml-3">
+                        <b>${doc.data().name}</b> says <i>${doc.data().question}</i>
+                    </p>
+                </div>
                 <div class="card-footer text-muted>
-                    ${doc.data.email}
+                    ${doc.data().email}
                 </div>
             </div>
             </div>`
